@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo filter</title>
+    <!--Autor: Jose Miguel Angel Castillo-->
+</head>
+
+<body>
+    <script>
+        const array = [15, 2, 30, 7, 45, 12, 5];
+
+        const valorLimite = 10;
+
+        const numerosMayoresQueLimite = array.filter((elemento) => {
+            return elemento > valorLimite;
+        });
+
+        console.log(numerosMayoresQueLimite); 
+    </script>
+</body>
+
+</html>

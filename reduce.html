@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo reduce</title>
+    <!--Autor: Jose Miguel Angel Castillo-->
+</head>
+
+<body>
+    <script>
+        const array = [3, 7, 2, 9, 5, 1, 8, 4, 6];
+
+        const numeroMasGrande = array.reduce((maximo, elementoActual) => {
+            return (elementoActual > maximo) ? elementoActual : maximo;
+        }, array[0]);
+
+        console.log(numeroMasGrande); 
+    </script>
+</body>
+
+</html>
